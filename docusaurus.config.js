@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/bare.ico',
   organizationName: 'bare-cli', // Usually your GitHub org/user name.
   projectName: 'bare', // Usually your repo name.
 
@@ -46,7 +46,7 @@ const config = {
         title: 'Bare',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/bare-logo.png',
+          src: 'img/bare.png',
         },
         items: [
           {
