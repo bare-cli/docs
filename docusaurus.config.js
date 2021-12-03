@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Bare',
-  tagline: 'Get you project ready in no time',
+  tagline: 'Get your project ready in no time',
   url: 'https://github.com/bare-cli/bare',
   baseUrl: '/',
   onBrokenLinks: 'throw',
