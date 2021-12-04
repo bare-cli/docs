@@ -3,17 +3,18 @@ id: Installation
 slug: /install
 ---
 
-## Using NPM
+## Using snapstore 
 
 > Currently Bare is only availabel for Linux
 
 ### Prequisites 
 
-Since **Bare** is a compiled binary, there is no need for any other dependencies, except for **NPM** and **Node** as it is required to install the binary based on the platform and architecture.
+Since **Bare** is a compiled binary, there is no need for any other dependencies, except for [Snap](https://snapcraft.io/docs/installing-snapd)
+> Get more information about [Bare snap](https://snapcraft.io/bare-cli)
 
-### Install using NPM
+### Install using Snap 
 ```shell
-npm i -g barego
+sudo snap install bare-cli --beta
 ```
 
 To check installation
@@ -21,18 +22,6 @@ To check installation
 ```shell
 bare
 ```
-
-### To install the nightly build
-
-```shell
-npm i -g bare-cli/bare#dev
-```
-	
-Revert back to `latest build` using 
-```shell
-npm i -g barego
-```
-
 ## Build from source
 
 - Clone the repo
